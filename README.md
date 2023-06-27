@@ -28,3 +28,6 @@ git configuration files will have the followint text:
  email = personal_email
  ```
  Replace with your information
+
+## Update your git congiguration files
+The script `update.sh` copies all of your current configuration files to a `.gitconfig_versions/` directory to track changes to your profiles in case a rollback is necessary. It then replaces the configuration files in your home directory with the files in this repository's `configs/` directory. 
