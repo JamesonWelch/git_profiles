@@ -1,2 +1,11 @@
-[includeIf "gitdir:~/personal/"]
-  path = ~/.gitconfig-personal
+[user]
+name = name
+email = email
+
+[includeIf "gitdir:~/repository/work/"]
+  path = ~/.gitconfig-work
+
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
