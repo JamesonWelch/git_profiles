@@ -8,6 +8,7 @@ cat ~/.gitconfig
 ```
 Creating more than one profile can be achieved by creating separate git congiguration files and having your `~/.gitconfig` file point to them.
 
+ref: [How to Use Multiple Git Configs on One Computer](https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/)
 
 ### Profile Directories
 Separating the repositories in different directories based on the profile is one way of accomplishing this.
